@@ -2,6 +2,7 @@
 {
     public class RoomRecord
     {
+        // Changes Sprint 1 -- I want to create records for each room -- Nick Rasanen
         public RoomRecord(string name, int roomId)
         {
             Name = name;
