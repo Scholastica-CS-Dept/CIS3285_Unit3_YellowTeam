@@ -12,12 +12,14 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         }
 
         // GET: RoomController/Details/5
+        // Changes Sprint 1 -- I want to list details for all our different rooms -- Nick Rasanen
         public ActionResult Details(int id)
         {
             return View();
         }
 
         // GET: RoomController/Create
+        // Changes Sprint 1 -- I want to create rooms for categorizing conversations -- Nick Rasanen
         public ActionResult Create()
         {
             return View();
@@ -39,6 +41,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         }
 
         // GET: RoomController/Edit/5
+        // Changes Sprint 1 -- I want to be able to edit the room listing -- Nick Rasanen
         public ActionResult Edit(int id)
         {
             return View();
@@ -60,6 +63,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         }
 
         // GET: RoomController/Delete/5
+        // Changes Sprint 1 -- I want to be able to delete rooms -- Nick Rasanen
         public ActionResult Delete(int id)
         {
             return View();
