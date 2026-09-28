@@ -12,6 +12,7 @@
         int RoomId;
         public int RoomId1 { get => RoomId; set => RoomId = value; }
 
+        //Changes Sprint 2 -- Stores the string values for the name of the room. -- Jake Jablonsky
         public string Name
         {
             get;
