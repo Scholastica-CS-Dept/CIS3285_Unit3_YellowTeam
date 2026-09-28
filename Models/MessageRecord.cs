@@ -9,7 +9,7 @@
             Text = text;
             AuthorName = authorName;
         }
-
+        // Changes Sprint 2 -- The int that stores the room ID for the room. --Jake Jablonsky
         public int RoomID
         {
             get;
