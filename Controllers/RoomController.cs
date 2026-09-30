@@ -8,6 +8,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         // GET: RoomController
         public ActionResult Index()
         {
+            // Changes Sprint 2 -- User Story 2B -- Emmanuel Bankole
             return View();
         }
 
@@ -22,6 +23,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         // Changes Sprint 1 -- I want to create rooms for categorizing conversations -- Nick Rasanen
         public ActionResult Create()
         {
+            // Changes Sprint 2 -- User Story 2B -- Emmanuel Bankole
             return View();
         }
 

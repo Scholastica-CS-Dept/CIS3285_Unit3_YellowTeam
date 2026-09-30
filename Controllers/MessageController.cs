@@ -14,12 +14,14 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         // GET: MessageController/Details/5
         public ActionResult Details(int id)
         {
+            // Changes Sprint 2 -- User Story 2B -- Emmanuel Bankole
             return View();
         }
 
         // GET: MessageController/Create
         public ActionResult Create()
         {
+            // Changes Sprint 2 -- User Story 2B -- Emmanuel Bankole
             return View();
         }
 
