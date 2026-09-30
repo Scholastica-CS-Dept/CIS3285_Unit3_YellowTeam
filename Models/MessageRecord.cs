@@ -9,12 +9,13 @@
             Text = text;
             AuthorName = authorName;
         }
-
+        // Changes Sprint 2 -- User Story 2C -- Emmanuel Bankole
         public int RoomID
         {
             get;
             private set;
         }
+
 
         // Changes Sprint 2 -- The string that stores all the message text for the room -- Nick Rasanen
         public string Text

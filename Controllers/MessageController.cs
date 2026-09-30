@@ -26,6 +26,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         // POST: MessageController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
+        // Changes Sprint 2 -- User Story 2C -- Emmanuel Bankole
         public ActionResult Create(IFormCollection collection)
         {
             try
@@ -39,6 +40,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         }
 
         // GET: MessageController/Edit/5
+        // Changes Sprint 2 -- User Story 2C -- Emmanuel Bankole
         public ActionResult Edit(int id)
         {
             return View();
@@ -47,6 +49,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         // POST: MessageController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
+        // Changes Sprint 2 -- User Story 2C -- Emmanuel Bankole
         public ActionResult Edit(int id, IFormCollection collection)
         {
             try
