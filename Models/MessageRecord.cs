@@ -5,6 +5,7 @@
         // Changes Sprint 2 -- I want to send messages populated with the room information -- Nick Rasanen
         public MessageRecord(int roomID, string authorName, string text)
         {
+            // Changes Sprint 1 -- User Story 1B -- Emmanuel Bankole
             RoomID = roomID;
             Text = text;
             AuthorName = authorName;
@@ -25,6 +26,7 @@
 
         public string AuthorName
         {
+            // Changes Sprint 1 -- User Story 1B -- Emmanuel Bankole
             get;
             private set;
         }

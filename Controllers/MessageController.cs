@@ -14,12 +14,14 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         // GET: MessageController/Details/5
         public ActionResult Details(int id)
         {
+            // Changes Sprint 1 -- User Story 1B -- Emmanuel Bankole
             return View();
         }
 
         // GET: MessageController/Create
         public ActionResult Create()
         {
+            // Changes Sprint 1 -- User Story 1B -- Emmanuel Bankole
             return View();
         }
 
@@ -28,6 +30,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create(IFormCollection collection)
         {
+            // Changes Sprint 1 -- User Story 1B -- Emmanuel Bankole
             try
             {
                 return RedirectToAction(nameof(Index));
